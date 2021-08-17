@@ -1,5 +1,9 @@
 # git-cheat-sheet
 
+# undo file modification
+```bash
+git reset --hard   # resets all modifactions!
+```
 
 ## branching
 
@@ -19,3 +23,6 @@ xclip -selection clipboard < ~/.ssh/id_ed25519.pub
 git remote set-url origin git@github.com:mzechmeister/serval
 git push
 ```
+
+See also
+* https://docs.gitlab.com/ee/topics/git/numerous_undo_possibilities_in_git/
