@@ -1,11 +1,11 @@
 # git-cheat-sheet
 
-# undo file modification
+### undo file modification
 ```bash
-git reset --hard   # resets all modifactions!
+git reset --hard        # resets all modifactions!
 ```
 
-## branching
+### branching
 
 ```bash
 git branch testing      # create a branch   
@@ -16,7 +16,7 @@ git merge testing
 
 
 
-From some github doc:
+From some github doc (regarding new access rule):
 ```bash
 xclip -selection clipboard < ~/.ssh/id_ed25519.pub
 
@@ -25,4 +25,4 @@ git push
 ```
 
 See also
-* https://docs.gitlab.com/ee/topics/git/numerous_undo_possibilities_in_git/
+* https://docs.gitlab.com/ee/topics/git/numerous_undo_possibilities_in_git
