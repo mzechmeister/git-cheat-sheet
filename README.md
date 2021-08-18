@@ -10,8 +10,11 @@ git reset --hard        # resets all modifactions!
 ```bash
 git branch testing      # create a branch   
 git checkout testing    # switch the branch
-
-git merge testing
+# do stuff
+git commit
+git pull
+git checkout master
+git merge testing       # with master 
 ```
 
 
