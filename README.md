@@ -5,6 +5,13 @@
 git reset --hard        # resets all modifactions!
 ```
 
+### undo last pushed commit
+```bash
+git log --oneline
+git reset --hard HEAD^     # Use --hard if you don't care about keeping the changes you made
+git push -f
+```
+
 ### branching
 
 ```bash
