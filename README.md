@@ -24,7 +24,12 @@ git checkout master
 git merge testing       # with master 
 ```
 
-
+### staging
+```bash
+git stage filename
+git pull
+???
+```
 
 From some github doc (regarding new access rule):
 ```bash
