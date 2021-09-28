@@ -3,6 +3,11 @@
 ### undo file modification
 ```bash
 git reset --hard        # resets all modifactions!
+
+```
+### undo commit (not pushed)
+```bash
+git reset HEAD~
 ```
 
 ### undo last pushed commit
@@ -28,7 +33,6 @@ git merge testing       # with master
 ```bash
 git stage filename
 git pull
-???
 ```
 
 From some github doc (regarding new access rule):
