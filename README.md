@@ -35,11 +35,16 @@ git stage filename
 git pull
 ```
 
-From some github doc (regarding new access rule):
+
+### new access rule
+From [github doc](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+Once for the whole account:
 ```bash
 xclip -selection clipboard < ~/.ssh/id_ed25519.pub
-
-git remote set-url origin git@github.com:mzechmeister/serval
+```
+In each repo:
+```
+git remote set-url origin git@github.com:mzechmeister/<reponame>
 git push
 ```
 
