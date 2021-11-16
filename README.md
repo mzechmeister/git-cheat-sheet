@@ -18,7 +18,6 @@ git push -f
 ```
 
 ### branching
-
 ```bash
 git branch testing      # create a branch   
 git checkout testing    # switch the branch
@@ -27,6 +26,11 @@ git commit
 git pull
 git checkout master
 git merge testing       # with master 
+```
+
+### branch when already modified
+```bash
+git checkout -b testing
 ```
 
 ### staging
