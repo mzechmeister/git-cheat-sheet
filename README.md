@@ -17,6 +17,11 @@ git reset --hard HEAD^     # Use --hard if you don't care about keeping the chan
 git push -f
 ```
 
+### modify unpushed commit message
+```bash
+git commit --amend -m "New commit message"
+```
+
 ### branching
 ```bash
 git branch testing      # create a branch   
