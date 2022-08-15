@@ -37,6 +37,7 @@ git merge testing       # with master
 ```bash
 git checkout -b testing
 ```
+This takes the modifications into the new branch (and main will have no modifications anymore).
 
 ### staging
 ```bash
