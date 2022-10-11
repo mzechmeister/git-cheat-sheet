@@ -2,7 +2,8 @@
 
 ### undo file modification
 ```bash
-git reset --hard        # resets all modifactions!
+git reset --hard           # resets all modifactions!
+git restore path/to/file   # a single file
 
 ```
 ### undo commit (not pushed)
