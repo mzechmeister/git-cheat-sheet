@@ -45,7 +45,7 @@ This takes the modifications into the new branch (and main will have no modifica
 git stage filename
 git pull
 ```
-
+`git restore --staged <file>`
 
 ### new access rule
 From [github doc](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
