@@ -8,7 +8,7 @@ git restore path/to/file   # a single file
 ```
 ### undo commit (not pushed)
 ```bash
-git reset HEAD~
+git reset HEAD~     # modifications will be kept.
 ```
 
 ### undo last pushed commit
