@@ -48,13 +48,19 @@ git pull
 `git restore --staged <file>`
 
 ### new access rule
+```
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for
+```
+
 From [github doc](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 Once for the whole account:
 ```bash
 xclip -selection clipboard < ~/.ssh/id_ed25519.pub
 ```
 In each repo:
-```
+```bash
 git remote set-url origin git@github.com:mzechmeister/<reponame>
 git push
 ```
