@@ -64,7 +64,8 @@ In each repo:
 git remote set-url origin git@github.com:mzechmeister/<reponame>
 git push
 ```
-Create a token (https://github.com/settings/tokens) and provide the token as "password".
+Make sure ssh and not https is used.
+(Create a token (https://github.com/settings/tokens) and provide the token as "password".)
 
 See also
 * https://docs.gitlab.com/ee/topics/git/numerous_undo_possibilities_in_git
